@@ -41,10 +41,10 @@ This project is part of my **front-end development learning journey**, where I f
 
 ## 🚧 Current Status
 
-- [x] Project folder initialized
-- [ ] HTML structure in progress
-- [ ] CSS styling not started
-- [ ] Responsiveness not implemented
+- [x] Development started
+- [ ] HTML structure
+- [ ] CSS styling 
+- [ ] Responsiveness
 
 
 ---

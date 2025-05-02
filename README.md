@@ -16,6 +16,7 @@ The layout is inspired by a modern, clean landing page from Figma. You can view 
 
 ## 📁 Project Structure
 
+```bash
 landing-page-clone/
 │
 ├── index.html          # Main HTML file
@@ -24,6 +25,7 @@ landing-page-clone/
 │   ├── images/
 │   └── fonts/
 └── README.md           # Project documentation
+```
 
 ---
 

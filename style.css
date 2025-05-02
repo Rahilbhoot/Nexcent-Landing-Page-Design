@@ -19,7 +19,7 @@ header {
     padding: 20px 0px;
 }
 
-.logo img {
+.nav-logo img {
     width: 100px;
 }
 
@@ -164,6 +164,10 @@ main {
     align-items: center;
     justify-content: center;
     grid-column: span 2;
+}
+
+.hero-pages-dots div {
+    cursor: pointer;
 }
 
 .green-dot {

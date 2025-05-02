@@ -18,10 +18,12 @@ The layout is inspired by a modern, clean landing page from Figma. You can view 
 
 landing-page-clone/
 │
-├── index.html # Main HTML file
-├── style.css # CSS styling
-├── assets/ # Images, fonts, etc. (if needed)
-└── README.md # Project documentation
+├── index.html          # Main HTML file
+├── style.css           # Main CSS file
+├── assets/             # Folder for images, icons, fonts, etc.
+│   ├── images/
+│   └── fonts/
+└── README.md           # Project documentation
 
 ---
 

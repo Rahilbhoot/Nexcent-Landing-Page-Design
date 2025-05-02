@@ -79,10 +79,103 @@ header {
 .signup {
     background-color: #28CB8b;
     color: white;
-    border-radius: 5px;
+    border-radius: 6px;
     letter-spacing: 1px;
 }
 
 .signup:hover {
     background-color: #24a370;
+}
+
+
+/* **************** */
+/* Section Hero*/
+/* **************** */
+
+main {
+    margin: 0;
+    padding: 0;
+}
+
+.section-hero {
+    background-color: #f5f7fa;
+}
+
+.hero {
+    max-width: 1300px;
+    /*max width*/
+    padding-top: 80px;
+    padding-right: 144px;
+    padding-bottom: 30px;
+    padding-left: 144px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    gap: 104px;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 16px;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    color: #4d4d4d;
+}
+
+.h1-span {
+    color: #4caf4f;
+}
+
+.hero-content p {
+    font-size: 12px;
+    color: #717171;
+}
+
+.hero-btn {
+    padding: 14px 32px;
+    font-size: 12px;
+    background-color: #4caf4f;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    margin-top: 16px;
+    transition: all 0.3s;
+    letter-spacing: 1px;
+}
+
+.hero-btn:hover {
+    background-color: #339435;
+}
+
+.hero-img img {
+    width: 391px;
+}
+
+.hero-pages-dots {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    grid-column: span 2;
+}
+
+.green-dot {
+    background-color: #4caf4f;
+}
+
+.lightgreen-dots {
+    background-color: #a9e1ac;
+}
+
+.hero-pages-dots div {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
 }

@@ -310,3 +310,61 @@ main {
     right: 50%;
     /* top: 20%; */
 }
+
+/* **************** */
+/* Section Pixelgrade*/
+/* **************** */
+
+.pixelgrade {
+    max-width: 1300px;
+    /*max width*/
+    padding-right: 144px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 144px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 49px;
+}
+
+.pixelgrade-img img {
+    width: auto;
+}
+
+.pixelgrade-content {
+    max-width: 661px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: start; */
+    align-items: start;
+    gap: 16px;
+}
+
+.pixelgrade-content h2 {
+    font-size: 32px;
+    color: #4d4d4d;
+}
+
+.pixelgrade-content p {
+    font-size: 12px;
+    color: #717171;
+    margin-bottom: 16px;
+}
+
+.pixelgrade-content button {
+    padding: 14px 32px;
+    font-size: 12px;
+    background-color: #4caf4f;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    margin-top: 16px;
+    transition: all 0.3s;
+    letter-spacing: 1px;
+}
+
+.pixelgrade-content button:hover {
+    background-color: #339435;
+}

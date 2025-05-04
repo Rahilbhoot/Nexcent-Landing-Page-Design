@@ -368,3 +368,180 @@ main {
 .pixelgrade-content button:hover {
     background-color: #339435;
 }
+
+/* **************** */
+/* Section Reinvent*/
+/* **************** */
+
+.section-reinvent {
+    background-color: #f5f7fa;
+}
+
+.reinvent {
+    max-width: 1300px;
+    /*max width*/
+    padding-right: 144px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 144px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 72px; */
+}
+
+.reinvent-text-content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.reinvent-text-content h2 {
+    font-size: 32px;
+    color: #4d4d4d;
+}
+
+.reinvent-text-content p {
+    font-size: 12px;
+    color: #717171;
+}
+
+.reinvent-features {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.reinvent-feature {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2px;
+    align-items: center;
+}
+
+.reinvent-feature img {
+    grid-row: span 2;
+    justify-self: center;
+}
+
+.reinvent-feature h2 {
+    font-size: 28px;
+    color: #4d4d4d;
+}
+
+.reinvent-feature p {
+    font-size: 12px;
+    color: #717171;
+}
+
+/* **************** */
+/* Section Design footer*/
+/* **************** */
+
+.design-footer-section {
+    max-width: 1300px;
+    padding-right: 144px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 144px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 49px;
+}
+
+.design-footer-content {
+    max-width: 661px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: start;
+}
+
+.design-footer-content h2 {
+    font-size: 32px;
+    color: #4d4d4d;
+}
+
+.design-footer-content p {
+    font-size: 12px;
+    color: #717171;
+}
+
+.design-footer-content button {
+    padding: 14px 32px;
+    font-size: 12px;
+    background-color: #4caf4f;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    margin-top: 16px;
+    transition: all 0.3s;
+    letter-spacing: 1px;
+}
+
+.design-footer-section button:hover {
+    background-color: #339435;
+}
+
+/* **************** */
+/* Section Tesla*/
+/* **************** */
+
+.section-tesla {
+    background-color: #f5f7fa;
+}
+
+.tesla {
+    max-width: 1300px;
+    padding-right: 144px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 144px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 78px;
+}
+
+.tesla-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 748px;
+}
+
+.tesla-content p {
+    font-size: 12px;
+    color: #717171;
+}
+
+.tesla-content h3 {
+    font-size: 24px;
+    color: #4CAF4F;
+}
+
+.tesla-tim-intro {
+    font-size: 14px;
+    color: #89939E;
+}
+
+.tesla-components {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tesla-components a {
+    color: #4CAF4F;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.tesla-span {
+    margin-left: 5px;
+    font-weight: 900;
+}

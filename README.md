@@ -42,8 +42,8 @@ This project is part of my **front-end development learning journey**, where I f
 ## 🚧 Current Status
 
 - [x] Development started
-- [ ] HTML structure
-- [ ] CSS styling 
+- [x] HTML structure
+- [x] CSS styling 
 - [ ] Responsiveness
 
 

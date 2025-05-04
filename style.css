@@ -629,3 +629,159 @@ main {
     font-weight: 600;
     font-size: 18px;
 }
+
+/* **************** */
+/* Section Get Demo*/
+/* **************** */
+
+.section-getdemo {
+    background-color: #F5F7FA;
+}
+
+.getdemo {
+    max-width: 1300px;
+    padding-right: 144px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 144px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.getdemo h1 {
+    color: #263238;
+    text-align: center;
+    font-size: 42px;
+}
+
+.getdemo button {
+    padding: 14px 32px;
+    font-size: 12px;
+    background-color: #4caf4f;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    transition: all 0.3s;
+    letter-spacing: 1px;
+}
+
+.getdemo button:hover {
+    background-color: #339435;
+}
+
+
+/* ******* */
+/* Footer */
+/* ******* */
+
+footer {
+    background-color: #263238;
+}
+
+.footer-section {
+    max-width: 1300px;
+    padding-right: 144px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 144px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.logo-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.logo-footer img {
+    max-width: 191px;
+}
+
+.logo-footer p {
+    font-size: 12px;
+    color: #F5F7FA;
+}
+
+.social-logos {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    cursor: pointer;
+}
+
+.social-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background-color: #4d4d4d;
+    border-radius: 50%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: flex-start;
+    gap: 70px;
+}
+
+.cont {
+    display: flex;
+    flex-direction: column;
+    color: #F5F7FA;
+    gap: 24px;
+    justify-content: start;
+    align-items: flex-start;
+}
+
+.footer-content-header {
+    font-size: 24px;
+}
+
+.footer-lists {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer-lists li {
+    font-size: 12px;
+    color: #F5F7FA;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #525252;
+    padding: 10px 10px;
+    border-radius: 8px;
+}
+
+.form img {
+    cursor: pointer;
+}
+
+.form input {
+    color: #F5F7FA;
+    border: none;
+    background-color: inherit;
+}
+
+.form input:focus {
+    color: #F5F7FA;
+    outline: transparent;
+}
+
+.form input::placeholder {
+    color: #F5F7FA;
+}
